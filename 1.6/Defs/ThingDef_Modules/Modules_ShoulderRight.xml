@@ -156,7 +156,7 @@
           <debugLabel>ShoulderTurret_LMG</debugLabel>
           <texPath>Things/Turrets/DMS_Gun_LMG</texPath>
           <drawData>
-            <scale>1</scale>
+            <scale>0.75</scale>
             <defaultData>
               <layer>85</layer>
             </defaultData>

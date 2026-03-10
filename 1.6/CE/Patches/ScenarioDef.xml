@@ -28,6 +28,11 @@
 					</li>
 					<li Class="ScenPart_StartingThing_Defined">
 						<def>StartingThing_Defined</def>
+						<thingDef>DMS_Module_TurretPackLight</thingDef>
+						<count>1</count>
+					</li>
+					<li Class="ScenPart_StartingThing_Defined">
+						<def>StartingThing_Defined</def>
 						<thingDef>Ammo_556x45mmNATO_FMJ</thingDef>
 						<count>1000</count>
 					</li>
