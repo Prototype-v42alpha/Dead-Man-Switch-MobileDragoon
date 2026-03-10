@@ -82,7 +82,7 @@
     </comps>
   </ThingDef>
 
-  <!-- 各種肩砲需要VEF支持 -->
+  <!-- 各種肩砲 -->
 
   <!-- (右)肩部機槍 -->
   <ThingDef ParentName="DMS_ModuleItemMountRight">
@@ -278,7 +278,7 @@
           <debugLabel>ShoulderTurret_Kord</debugLabel>
           <texPath>Things/Weapons/DMS_Kord_MD</texPath>
           <drawData>
-            <scale>2.5</scale>
+            <scale>2</scale>
             <defaultData>
               <layer>85</layer>
             </defaultData>
@@ -401,7 +401,7 @@
           <debugLabel>ShoulderTurret_GAU</debugLabel>
           <texPath>Things/Weapons/DMS_Weapon_GAU19</texPath>
           <drawData>
-            <scale>2.25</scale>
+            <scale>1.25</scale>
             <defaultData>
               <layer>85</layer>
             </defaultData>

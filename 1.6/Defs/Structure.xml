@@ -417,7 +417,7 @@
     </modRequirements>
   </Fortified.Structures.StructureLayoutDef>
 
-  <Fortified.Structures.SymbolDef >
+  <Fortified.Structures.SymbolDef>
     <defName>MF_Building_ParkingSpot_West</defName>
     <thing>MF_Building_ParkingSpot</thing>
     <rotation>West</rotation>
