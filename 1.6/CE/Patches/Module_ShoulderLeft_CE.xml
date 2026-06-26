@@ -50,6 +50,7 @@
                             <range>85.9</range>
                             <minRange>5</minRange>
                             <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+                            <ai_IsWeapon>false</ai_IsWeapon>
                             <soundCast>RocketswarmLauncher_Fire</soundCast>
                             <soundCastTail>GunTail_Medium</soundCastTail>
                             <muzzleFlashScale>14</muzzleFlashScale>
@@ -105,7 +106,7 @@
                     <verbs>
                         <li Class="CombatExtended.VerbPropertiesCE">
                             <label>launch rocket</label>
-                            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                            <verbClass>CombatExtended.Verb_LaunchProjectileCE</verbClass>
                             <hasStandardCommand>true</hasStandardCommand>
                             <commandIcon>UI/Ability/Missile</commandIcon>
                             <onlyManualCast>True</onlyManualCast>
@@ -114,6 +115,7 @@
                             <range>63</range>
                             <minRange>15</minRange>
                             <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+                            <ai_IsWeapon>false</ai_IsWeapon>
                             <soundCast>RocketswarmLauncher_Fire</soundCast>
                             <soundCastTail>GunTail_Medium</soundCastTail>
                             <muzzleFlashScale>14</muzzleFlashScale>
@@ -179,6 +181,7 @@
                             <range>85.9</range>
                             <minRange>5</minRange>
                             <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+                            <ai_IsWeapon>false</ai_IsWeapon>
                             <soundCast>RocketswarmLauncher_Fire</soundCast>
                             <soundCastTail>GunTail_Medium</soundCastTail>
                             <muzzleFlashScale>14</muzzleFlashScale>
