@@ -62,6 +62,18 @@
                     </li>
                 </value>
             </li>
+            <!-- 物品形态组件 -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="DMS_Module_TurretPackLight"]/comps</xpath>
+                <value>
+                    <li Class="Exosuit.CE.CompProperties_TurretAmmo">
+                        <magCapacity>500</magCapacity>
+                        <reloadTicks>90</reloadTicks>
+                        <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
+                        <defaultAllowBackpackFeed>true</defaultAllowBackpackFeed>
+                    </li>
+                </value>
+            </li>
 
             <!--========== Kord Turret ==========-->
             <!-- CE Stats -->
@@ -126,6 +138,18 @@
                     </li>
                 </value>
             </li>
+            <!-- 物品形态组件 -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="DMS_Module_TurretPackHeavy"]/comps</xpath>
+                <value>
+                    <li Class="Exosuit.CE.CompProperties_TurretAmmo">
+                        <magCapacity>300</magCapacity>
+                        <reloadTicks>110</reloadTicks>
+                        <ammoSet>AmmoSet_127x108mm</ammoSet>
+                        <defaultAllowBackpackFeed>true</defaultAllowBackpackFeed>
+                    </li>
+                </value>
+            </li>
 
             <!--========== GAU Turret ==========-->
             <!-- CE Stats -->
@@ -178,6 +202,18 @@
             <!-- Turret Ammo Component -->
             <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName="DMS_Apparel_TurretPackGAU"]/comps</xpath>
+                <value>
+                    <li Class="Exosuit.CE.CompProperties_TurretAmmo">
+                        <magCapacity>420</magCapacity>
+                        <reloadTicks>150</reloadTicks>
+                        <ammoSet>AmmoSet_50BMG</ammoSet>
+                        <defaultAllowBackpackFeed>true</defaultAllowBackpackFeed>
+                    </li>
+                </value>
+            </li>
+            <!-- 物品形态组件 -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="DMS_Module_TurretPackGAU"]/comps</xpath>
                 <value>
                     <li Class="Exosuit.CE.CompProperties_TurretAmmo">
                         <magCapacity>420</magCapacity>
